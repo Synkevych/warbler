@@ -1,0 +1,51 @@
+ /* NavBar */
+
+ .navbar {
+	 margin-bottom: 1rem;
+ }
+
+ .navbar a{
+	 font-weight: bold;
+	 color: #495057;
+ }
+
+ .navbar a:hover {
+	 color:white;
+	 text-decoration: underline;
+	 cursor: pointer;
+ }
+
+ .navbar-brand > img{
+	display: inline-block;
+	width: 40px;
+	margin-bottom: 2px;
+	margin-right: 5px;
+	border-radius: 2px;
+ }
+
+ ul.nav.navbar-nav li {
+	 margin: 0 0.5rem;
+ }
+
+ .onboarding > .navbar {
+	 background-image: url("../images/nav-bg.png");
+	 background-size: 100%;
+ }
+  
+ /* Logotype  */
+ 
+ .logo-text{
+	 text-transform: uppercase;
+	 font-family: 'Saira Stencil One', cursive;
+	 font-weight: 800;
+ }
+
+ .logo-icon{
+	font-size: 30px;
+	vertical-align: middle;
+	line-height: 2;
+	padding-right: 5px;
+ }
+  .navbar-header:first-child a:hover{
+	text-decoration: none;
+ }

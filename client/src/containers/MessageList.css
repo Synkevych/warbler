@@ -1,0 +1,29 @@
+#messages .list-group-item{
+	display: flex;
+	align-items: flex-start;
+	padding: 7px 20px 12px;
+}
+
+#messages:not(.no-hover) .list-group-item:hover {
+	background-color: #e6ecf0;
+}
+
+.message-area {
+	margin-left: 1.2em;
+}
+
+.timeline-image {
+	border-radius: 50px;
+	height: 40px;
+	width: 44px;
+	margin: 10px 10px 0px 0px;
+}
+
+.btn:hover {
+	cursor: pointer;
+}
+
+a.btn.btn-danger,
+a.btn.btn-danger{
+	color: white;
+}
